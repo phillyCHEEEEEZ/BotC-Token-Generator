@@ -3,16 +3,26 @@
   position: relative;
 }
 
+/* #root {
+  transform: scale(0.94);
+  transform-origin: top left;
+  width: 107.52%;
+  height: 107.52%;
+} */
+
 .token {
   width: 178px;
   display: inline-block;
   margin-right: 5px;
+  transform: scale(0.95);
 }
 
 .reminderToken {
   width: 95px;
   display: inline-block;
   margin-right: 5px;
+
+  transform: scale(1.01);
 }
 
 .token .name .label {
@@ -20,7 +30,7 @@
   stroke: #fff;
   stroke-width: 1px;
   paint-order: stroke;
-  font-family: "Times New Roman", serif;
+  font-family: 'Times New Roman', serif;
   font-style: oblique;
   font-weight: 400;
 }
