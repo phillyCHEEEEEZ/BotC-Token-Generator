@@ -12,8 +12,6 @@ export function CharacterImage(props: CharacterImageProps) {
 
   const role = useRole(roleId);
 
-  console.log(role)
-
   let filter = extraFilter;
   let transform = "";
 
@@ -36,10 +34,10 @@ export function CharacterImage(props: CharacterImageProps) {
     height = (iconSize * 4) / 5;
   } else {
     xlinkHref = `https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/dev/src/icons/${roleId}.png`;
-    x = 15 + (120 - iconSize) / 2;
-    y = yOffset + 34 + (120 - iconSize) / 2;
-    width = iconSize;
-    height = iconSize;
+    x = 15 + (120 - (iconSize * 4) / 5) / 2;
+    y = yOffset + 34 + (120 - (iconSize * 4) / 5) / 2;
+    width = (iconSize * 4) / 5;
+    height = (iconSize * 4) / 5;
   }
 
   return (
