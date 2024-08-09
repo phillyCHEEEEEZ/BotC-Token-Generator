@@ -1,3 +1,7 @@
+:root {
+  --font: 'Calibri', serif;
+}
+
 * {
   box-sizing: border-box;
   position: relative;
@@ -25,14 +29,22 @@
   transform: scale(1.03);
 }
 
+.token .name .ability {
+  font-family: var(--font);
+}
+
 .token .name .label {
   fill: #000;
   stroke: #fff;
   stroke-width: 1px;
   paint-order: stroke;
-  font-family: 'Times New Roman', serif;
+  font-family: var(--font);
   font-style: oblique;
   font-weight: 400;
+}
+
+.reminderToken .name .reminderText {
+  font-family: var(--font);
 }
 
 .token,

@@ -79,13 +79,14 @@ export function ReminderToken({ text, roleId }: ReminderTokenProps) {
           y="48"
           style={{
             fontSize: computedFontSize,
-            fontFamily,
+            // fontFamily,
             lineHeight: 1,
             textAlign: "center",
             whiteSpace: "pre",
             display: "inline",
             fill: "#101010",
           }}
+          className = "reminderText"
         >
           {lineEls}
         </text>

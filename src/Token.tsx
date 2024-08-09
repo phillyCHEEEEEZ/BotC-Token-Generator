@@ -126,13 +126,14 @@ export function Token(props: TokenProps) {
           y="48"
           style={{
             fontSize: computedFontSize,
-            fontFamily: abilityFontFamily,
+            // fontFamily: abilityFontFamily,
             lineHeight: 1,
             textAlign: "center",
             whiteSpace: "pre",
             display: "inline",
             fill: "#101010"
           }}
+          className="ability"
         >
           {lineEls}
         </text>
