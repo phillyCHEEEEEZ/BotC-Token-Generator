@@ -11,7 +11,7 @@ export interface TokenProps {
   roleId: string;
 }
 
-const abilityFontFamily = "Calibri";
+const abilityFontFamily = "Times New Roman";
 const abilityFontSize = 11;
 
 export function Token(props: TokenProps) {
