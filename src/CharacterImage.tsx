@@ -24,7 +24,9 @@ export function CharacterImage(props: CharacterImageProps) {
   let xlinkHref;
   let x, y, width, height;
 
-  if (role?.image) {
+  const useOfficialImage = false;
+
+  if (role?.image && useOfficialImage) { 
     xlinkHref = role.image;
     x = -12 + (177 - (iconSize * 4) / 5) / 2;
     y = yOffset + 24 + (124 - (iconSize * 4) / 5) / 2;
