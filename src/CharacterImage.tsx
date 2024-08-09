@@ -12,6 +12,8 @@ export function CharacterImage(props: CharacterImageProps) {
 
   const role = useRole(roleId);
 
+  console.log(role)
+
   let filter = extraFilter;
   let transform = "";
 

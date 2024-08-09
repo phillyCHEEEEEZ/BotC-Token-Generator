@@ -2943,8 +2943,8 @@
     "otherNightReminder": null,
     "reminders": [],
     "whitenifyTokenFilter": true,
-    "image": "icons/zealot.png",
-    "remote_image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/dev/src/icons/zealot.png",
     "setup": false,
     "team": "outsider"
   },
