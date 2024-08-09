@@ -35,7 +35,7 @@ export function CharacterImage(props: CharacterImageProps) {
     width = (iconSize * 4) / 5;
     height = (iconSize * 4) / 5;
   } else {
-    xlinkHref = `https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/${roleId}.png`;
+    xlinkHref = `https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/dev/src/icons/${roleId}.png`;
     x = 15 + (120 - iconSize) / 2;
     y = yOffset + 34 + (120 - iconSize) / 2;
     width = iconSize;
