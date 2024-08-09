@@ -28,7 +28,7 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const activeScript = ExtensionCord;
+  const activeScript = Catfishing;
 
   // console.log(activeScript)
 
