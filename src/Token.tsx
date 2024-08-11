@@ -28,7 +28,7 @@ export function Token(props: TokenProps) {
 
   // console.log(roleId, "-", reminderCount)
 
-  let margin = abilityWithoutNewlines.length < 90 ? 14 : 11;
+  let margin = abilityWithoutNewlines.length < 200 ? 14 : 11;
 
   const { lines, fontSize: computedFontSize } = useTextPositioning({
     text: abilityWithNewlines,
