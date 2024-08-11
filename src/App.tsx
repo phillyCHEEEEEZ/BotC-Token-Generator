@@ -1,4 +1,5 @@
 import "./styles.css";
+import Test from "./scripts/Test.json";
 import Boozling from "./scripts/Boozling.json";
 import Catfishing from "./scripts/Catfishing.json";
 import ExtensionCord from "./scripts/Extension Cord.json";
@@ -28,7 +29,7 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const activeScript = Catfishing;
+  const activeScript = Test;
 
   // console.log(activeScript)
 
