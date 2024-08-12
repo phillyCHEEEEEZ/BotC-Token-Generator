@@ -42,10 +42,10 @@ export default function App() {
           key={convertCharName(character.id) + "-charactertoken"}
           roleId={convertCharName(character.id)}
         />
-        <ReminderTokens
+        {/* <ReminderTokens
           key={convertCharName(character.id) + "-remindertokens"}
           roleId={convertCharName(character.id)}
-        />
+        /> */}
       </text>
     ),
   );
