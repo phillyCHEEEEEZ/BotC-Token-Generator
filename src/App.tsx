@@ -1,5 +1,5 @@
 import "./styles.css";
-import Test from "./scripts/Test.json";
+import AllCharacters from "./scripts/AllCharacters.json";
 import Boozling from "./scripts/Boozling.json";
 import Catfishing from "./scripts/Catfishing.json";
 import ExtensionCord from "./scripts/Extension Cord.json";
@@ -29,25 +29,37 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const activeScript = Test;
+  const allCharacters = true
+  const characterTokensOnly = false
+
+  const activeScript = allCharacters ? AllCharacters : ExtensionCord;
 
   // console.log(activeScript)
 
   const tokens = activeScript.map((character, i) =>
     character.id === "_meta" ? (
       ""
-    ) : (
-      <text key={i}>
-        <Token
-          key={convertCharName(character.id) + "-charactertoken"}
-          roleId={convertCharName(character.id)}
-        />
-        {/* <ReminderTokens
-          key={convertCharName(character.id) + "-remindertokens"}
-          roleId={convertCharName(character.id)}
-        /> */}
-      </text>
-    ),
+    ) : characterTokensOnly ? 
+      (
+        <text key={i}>
+          <Token
+            key={convertCharName(character.id) + "-charactertoken"}
+            roleId={convertCharName(character.id)}
+          />
+        </text>
+      ) :
+      (
+        <text key={i}>
+          <Token
+            key={convertCharName(character.id) + "-charactertoken"}
+            roleId={convertCharName(character.id)}
+          />
+          <ReminderTokens
+            key={convertCharName(character.id) + "-remindertokens"}
+            roleId={convertCharName(character.id)}
+          />
+        </text>
+      ),
   );
 
   return (
