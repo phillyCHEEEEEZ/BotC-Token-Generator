@@ -14,7 +14,7 @@ import { ReminderTokens } from "./ReminderTokens";
 import { getAllRoleIds, getRoleInfo, RoleInfo } from "./roleInfos";
 
 function convertCharName(text: string) {
-  return text.replace("_", "").replace("-", "");
+  return text.replaceAll("_", "").replace("-", "");
 }
 
 export default function App() {
