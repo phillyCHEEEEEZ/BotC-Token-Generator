@@ -4,6 +4,8 @@ import Boozling from "./scripts/Boozling.json";
 import Catfishing from "./scripts/Catfishing.json";
 import ExtensionCord from "./scripts/Extension Cord.json";
 import Horrifying from "./scripts/The Horrifying Spectacle of Public Executions.json";
+import Midnight from "./scripts/The Midnight Oasis.json";
+import Labyrinth from "./scripts/The Minotaur's Labyrinth.json";
 import Predicament from "./scripts/Predicament Forthcoming.json";
 
 import { useState, useEffect } from "react";
@@ -29,10 +31,10 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const allCharacters = true
+  const allCharacters = false
   const characterTokensOnly = false
 
-  const activeScript = allCharacters ? AllCharacters : ExtensionCord;
+  const activeScript = allCharacters ? AllCharacters : Midnight;
 
   // console.log(activeScript)
 
