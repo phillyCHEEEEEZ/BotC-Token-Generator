@@ -1,1 +1,27 @@
-[{"id": "investigator"}, {"id": "clockmaker"}, {"id": "fortune_teller"}, {"id": "mathematician"}, {"id": "town_crier"}, {"id": "monk"}, {"id": "savant"}, {"id": "fisherman"}, {"id": "slayer"}, {"id": "professor"}, {"id": "seamstress"}, {"id": "ravenkeeper"}, {"id": "cannibal"}, {"id": "recluse"}, {"id": "mutant"}, {"id": "klutz"}, {"id": "politician"}, {"id": "godfather"}, {"id": "witch"}, {"id": "cerenovus"}, {"id": "scarlet_woman"}, {"id": "imp"}, {"id": "shabaloth"}, {"id": "po"}, {"id": "fang_gu"}]
+[
+  { "id": "investigator" },
+  { "id": "clockmaker" },
+  { "id": "fortune_teller" },
+  { "id": "mathematician" },
+  { "id": "town_crier" },
+  { "id": "monk" },
+  { "id": "savant" },
+  { "id": "fisherman" },
+  { "id": "slayer" },
+  { "id": "professor" },
+  { "id": "seamstress" },
+  { "id": "ravenkeeper" },
+  { "id": "cannibal" },
+  { "id": "recluse" },
+  { "id": "mutant" },
+  { "id": "klutz" },
+  { "id": "politician" },
+  { "id": "godfather" },
+  { "id": "witch" },
+  { "id": "cerenovus" },
+  { "id": "scarlet_woman" },
+  { "id": "imp" },
+  { "id": "shabaloth" },
+  { "id": "po" },
+  { "id": "fang_gu" }
+]
