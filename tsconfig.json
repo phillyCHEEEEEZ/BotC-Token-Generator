@@ -2,9 +2,6 @@
     "include": [
         "./src/**/*"
     ],
-    "exclude": [
-    "**/*.spec.ts"
-    ],
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,
