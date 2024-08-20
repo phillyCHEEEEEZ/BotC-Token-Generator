@@ -9,6 +9,7 @@
     "otherNight": 81,
     "otherNightReminder": "Wait approximately 10 seconds. Call for eyes open, then immediately announce which players (if any) died.",
     "reminders": [],
+    "image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DAWN.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DAWN.png",
     "setup": false,
     "team": "_meta"
@@ -23,6 +24,7 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DEMON.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DEMON.png",
     "setup": false,
     "team": "_meta"
@@ -37,6 +39,7 @@
     "otherNight": 1,
     "otherNightReminder": "Check that all eyes are closed. Some travellers act.",
     "reminders": [],
+    "image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DUSK.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/DUSK.png",
     "setup": false,
     "team": "_meta"
@@ -51,9 +54,28 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/MINION.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/MINION.png",
     "setup": false,
     "team": "_meta"
+  },
+  {
+    "ability": "Once per game, at night*, choose a player and spit on that thang. A Minion spitten upon that is opposite of your alignment becomes your alignemnt but loses their ability.",
+    "edition": "experimental",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "hawktuah",
+    "name": "Hawk Tuah",
+    "otherNight": 44,
+    "otherNightReminder": "The Hawk Tuah either shakes their head no or points at any player. If they pointed at a minion of the opposite alignment, wake that player and show them the 'You are' card and indicate to them their new alignment.",
+    "reminders": [
+      "No ability"
+    ],
+    "whitenifyTokenFilter": true,
+    "image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
+    "remote_image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
+    "setup": false,
+    "team": "townsfolk"
   },
   {
     "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
@@ -67,26 +89,11 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_acrobat.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/acrobat.png",
     "setup": false,
     "team": "outsider"
-  },
-  {
-    "ability": "You have a not-in-play Minion ability.",
-    "edition": "ks",
-    "firstNight": 4,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
-    "id": "alchemist",
-    "name": "Alchemist",
-    "otherNight": null,
-    "otherNightReminder": null,
-    "reminders": [],
-    "remindersGlobal": [
-      "Is the Alchemist"
-    ],
-    "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/alchemist.png",
-    "setup": false,
-    "team": "townsfolk"
   },
   {
     "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
@@ -104,9 +111,48 @@
       "Chose death",
       "Chose life"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/18/Icon_alhadikhia.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/alhadikhia.png",
     "setup": false,
     "team": "demon"
+  },
+  {
+    "ability": "You have a not-in-play Minion ability.",
+    "edition": "ks",
+    "firstNight": 4,
+    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "id": "alchemist",
+    "name": "Alchemist",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Alchemist"
+    ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/54/Icon_alchemist.png",
+    "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/alchemist.png",
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins.",
+    "edition": "experimental",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "alsaahir",
+    "name": "Alsaahir",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [
+      "Guessed today"
+    ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+    "remote_image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+    "setup": false,
+    "team": "townsfolk"
   },
   {
     "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
@@ -120,6 +166,8 @@
     "reminders": [
       "???"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_amnesiac.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/amnesiac.png",
     "setup": false,
     "team": "townsfolk"
@@ -137,6 +185,8 @@
       "Protect",
       "Something Bad"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/ca/Icon_angel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/angel.png",
     "setup": false,
     "team": "fabled"
@@ -153,6 +203,8 @@
     "reminders": [
       "Is the Apprentice"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/03/Icon_apprentice.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/apprentice.png",
     "setup": false,
     "team": "traveler"
@@ -169,6 +221,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_artist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/artist.png",
     "setup": false,
     "team": "townsfolk"
@@ -186,6 +240,8 @@
       "Dead",
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/49/Icon_assassin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/assassin.png",
     "setup": false,
     "team": "minion"
@@ -200,26 +256,26 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/43/Icon_atheist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/atheist.png",
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
     "edition": "experimental",
     "firstNight": 51,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's 'Seen' reminder next to that character.",
     "id": "balloonist",
     "name": "Balloonist",
     "otherNight": 69,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "otherNightReminder": "Choose a character type that is different than the character type that was seen last night. Point to a player whose character is of that type, if there are any. Place the Balloonist's 'Seen' reminder next to that character.",
     "reminders": [
-      "Seen Townsfolk",
-      "Seen Outsider",
-      "Seen Minion",
-      "Seen Demon",
-      "Seen Traveller"
+      "Seen"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/cb/Icon_balloonist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/balloonist.png",
     "setup": true,
     "team": "townsfolk"
@@ -236,6 +292,8 @@
     "reminders": [
       "Has Ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/banshee.png",
     "team": "townsfolk"
   },
@@ -251,6 +309,8 @@
     "reminders": [
       "Haircuts tonight"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_barber.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/barber.png",
     "setup": false,
     "team": "outsider"
@@ -268,6 +328,8 @@
       "Sober & Healthy",
       "Ability twice"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/24/Icon_barista.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/barista.png",
     "setup": false,
     "team": "traveler"
@@ -282,6 +344,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6d/Icon_baron.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/baron.png",
     "setup": true,
     "team": "minion"
@@ -296,6 +360,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e3/Icon_beggar.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/beggar.png",
     "setup": false,
     "team": "traveler"
@@ -313,6 +379,8 @@
       "Nominate good",
       "Nominate evil"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/71/Icon_bishop.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bishop.png",
     "setup": false,
     "team": "traveler"
@@ -330,6 +398,8 @@
       "No ability",
       "Has ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/9e/Icon_bonecollector.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bonecollector.png",
     "setup": false,
     "team": "traveler"
@@ -344,6 +414,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/20/Icon_boomdandy.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/boomdandy.png",
     "setup": false,
     "team": "minion"
@@ -357,6 +429,8 @@
     "name": "Bootlegger",
     "otherNight": null,
     "otherNightReminder": null,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_bootlegger.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bootlegger.png",
     "setup": false,
     "team": "fabled"
@@ -373,6 +447,8 @@
     "reminders": [
       "Known"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/5b/Icon_bountyhunter.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bountyhunter.png",
     "setup": true,
     "team": "townsfolk"
@@ -387,6 +463,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_buddhist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/buddhist.png",
     "setup": false,
     "team": "fabled"
@@ -403,6 +481,8 @@
     "reminders": [
       "3 votes"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/b1/Icon_bureaucrat.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bureaucrat.png",
     "setup": false,
     "team": "traveler"
@@ -417,6 +497,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e3/Icon_butcher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/butcher.png",
     "setup": false,
     "team": "traveler"
@@ -433,6 +515,8 @@
     "reminders": [
       "Master"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/19/Icon_butler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/butler.png",
     "setup": false,
     "team": "outsider"
@@ -450,6 +534,8 @@
       "Poisoned",
       "Died today"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_cannibal.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/cannibal.png",
     "setup": false,
     "team": "townsfolk"
@@ -466,6 +552,8 @@
     "reminders": [
       "Mad"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/45/Icon_cerenovus.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/cerenovus.png",
     "setup": false,
     "team": "minion"
@@ -480,6 +568,8 @@
     "otherNight": 79,
     "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, ...) for how many of those players wake tonight for their ability.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/87/Icon_chambermaid.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/chambermaid.png",
     "setup": false,
     "team": "townsfolk"
@@ -493,6 +583,8 @@
     "name": "Chef",
     "otherNight": null,
     "otherNightReminder": null,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_chef.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/chef.png",
     "setup": false,
     "team": "townsfolk"
@@ -507,6 +599,8 @@
     "otherNight": 51,
     "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_choirboy.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/choirboy.png",
     "setup": true,
     "team": "townsfolk"
@@ -521,6 +615,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/3/3d/Icon_clockmaker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/clockmaker.png",
     "setup": false,
     "team": "townsfolk"
@@ -540,6 +636,8 @@
       "Drunk 1",
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_courtier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/courtier.png",
     "setup": false,
     "team": "townsfolk"
@@ -554,6 +652,8 @@
     "otherNight": 74,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6c/Icon_cultleader.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/cultleader.png",
     "setup": false,
     "team": "townsfolk"
@@ -570,6 +670,8 @@
     "reminders": [
       "Guess used"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_damsel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/damsel.png",
     "setup": false,
     "team": "outsider"
@@ -584,6 +686,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a5/Icon_deviant.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/deviant.png",
     "setup": false,
     "team": "traveler"
@@ -600,6 +704,8 @@
     "reminders": [
       "Survives execution"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/09/Icon_devilsadvocate.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/devilsadvocate.png",
     "setup": false,
     "team": "minion"
@@ -614,6 +720,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/86/Icon_djinn.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/djinn.png",
     "setup": false,
     "team": "fabled"
@@ -628,6 +736,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8f/Icon_doomsayer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/doomsayer.png",
     "setup": false,
     "team": "fabled"
@@ -642,6 +752,8 @@
     "otherNight": 63,
     "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f2/Icon_dreamer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/dreamer.png",
     "setup": false,
     "team": "townsfolk"
@@ -659,6 +771,8 @@
     "remindersGlobal": [
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/4a/Icon_drunk.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/drunk.png",
     "setup": true,
     "team": "outsider"
@@ -676,6 +790,8 @@
       "Visitor",
       "False Info"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/87/Icon_duchess.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/duchess.png",
     "setup": false,
     "team": "fabled"
@@ -690,6 +806,8 @@
     "otherNight": 60,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/13/Icon_empath.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/empath.png",
     "setup": false,
     "team": "townsfolk"
@@ -706,6 +824,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/b9/Icon_engineer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/engineer.png",
     "setup": false,
     "team": "townsfolk"
@@ -722,6 +842,8 @@
     "reminders": [
       "Twin"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f4/Icon_eviltwin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/eviltwin.png",
     "setup": false,
     "team": "minion"
@@ -738,6 +860,8 @@
     "reminders": [
       "Chosen"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c2/Icon_exorcist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/exorcist.png",
     "setup": false,
     "team": "townsfolk"
@@ -755,6 +879,8 @@
       "Dead",
       "Once"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/0e/Icon_fanggu.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fanggu.png",
     "setup": true,
     "team": "demon"
@@ -769,6 +895,8 @@
     "otherNight": 55,
     "otherNightReminder": "If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/fe/Icon_farmer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/farmer.png",
     "setup": false,
     "team": "townsfolk"
@@ -785,9 +913,27 @@
     "reminders": [
       "Fear"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/11/Icon_fearmonger.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fearmonger.png",
     "setup": false,
     "team": "minion"
+  },
+  {
+    "ability": "On the final day, all dead players regain their vote token.",
+    "edition": "experimental",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "ferryman",
+    "name": "Ferryman",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8f/Icon_ferryman.png",
+    "remote_image": "https://wiki.bloodontheclocktower.com/images/8/8f/Icon_ferryman.png",
+    "setup": false,
+    "team": "fabled"
   },
   {
     "ability": "Once per game, 1 good player might get false information.",
@@ -801,6 +947,8 @@
     "reminders": [
       "Used"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/2e/Icon_fibbin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fibbin.png",
     "setup": false,
     "team": "fabled"
@@ -815,6 +963,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e5/Icon_fiddler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fiddler.png",
     "setup": false,
     "team": "fabled"
@@ -831,6 +981,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/19/Icon_fisherman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fisherman.png",
     "setup": false,
     "team": "townsfolk"
@@ -848,6 +1000,8 @@
       "Demon voted",
       "Demon not voted"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/ac/Icon_flowergirl.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/flowergirl.png",
     "setup": false,
     "team": "townsfolk"
@@ -864,6 +1018,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_fool.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fool.png",
     "setup": false,
     "team": "townsfolk"
@@ -880,6 +1036,8 @@
     "reminders": [
       "Red herring"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/97/Icon_fortuneteller.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fortuneteller.png",
     "setup": false,
     "team": "townsfolk"
@@ -896,6 +1054,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/fd/Icon_gambler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gambler.png",
     "setup": false,
     "team": "townsfolk"
@@ -910,9 +1070,27 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/File:Icon_gangster.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gangster.png",
     "setup": false,
     "team": "traveler"
+  },
+  {
+    "ability": "The Storyteller assigns 1 or more players' characters.",
+    "edition": "experimental",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "gardener",
+    "name": "Gardener",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/5c/Icon_gardener.png",
+    "remote_image": "https://wiki.bloodontheclocktower.com/images/5/5c/Icon_gardener.png",
+    "setup": false,
+    "team": "townsfolk"
   },
   {
     "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
@@ -924,6 +1102,8 @@
     "otherNight": 78,
     "otherNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/99/Icon_general.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/general.png",
     "setup": false,
     "team": "townsfolk"
@@ -940,6 +1120,8 @@
     "reminders": [
       "Claimed"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_goblin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/goblin.png",
     "setup": false,
     "team": "minion"
@@ -957,6 +1139,8 @@
       "Died today",
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d0/Icon_godfather.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/godfather.png",
     "setup": true,
     "team": "minion"
@@ -973,6 +1157,8 @@
     "reminders": [
       "Can not nominate"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/2b/Icon_golem.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/golem.png",
     "setup": false,
     "team": "outsider"
@@ -989,6 +1175,8 @@
     "reminders": [
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_goon.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/goon.png",
     "setup": false,
     "team": "outsider"
@@ -1005,6 +1193,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c7/Icon_gossip.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gossip.png",
     "setup": false,
     "team": "townsfolk"
@@ -1021,6 +1211,8 @@
     "reminders": [
       "Grandchild"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_grandmother.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/grandmother.png",
     "setup": false,
     "team": "townsfolk"
@@ -1035,6 +1227,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1c/Icon_gunslinger.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gunslinger.png",
     "setup": false,
     "team": "traveler"
@@ -1051,6 +1245,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/60/Icon_harlot.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/harlot.png",
     "setup": false,
     "team": "traveler"
@@ -1068,6 +1264,8 @@
       "Mad",
       "2nd"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1b/Harpy.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/harpy.png",
     "setup": false,
     "team": "minion"
@@ -1084,6 +1282,8 @@
     "reminders": [
       "Tea Party Tonight"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/44/Icon_hatter.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/hatter.png",
     "team": "outsider"
   },
@@ -1099,6 +1299,8 @@
     "reminders": [
       "Something Bad"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/65/Icon_hellslibrarian.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/hellslibrarian.png",
     "setup": false,
     "team": "fabled"
@@ -1113,6 +1315,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/4a/Icon_heretic.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/heretic.png",
     "setup": false,
     "team": "outsider"
@@ -1127,6 +1331,8 @@
     "otherNight": 77,
     "otherNightReminder": "Point to a player.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/63/Icon_highpriestess.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/highpriestess.png",
     "setup": false,
     "team": "townsfolk"
@@ -1143,6 +1349,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a1/Icon_huntsman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/huntsman.png",
     "setup": true,
     "team": "townsfolk"
@@ -1159,6 +1367,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/5c/Icon_imp.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/imp.png",
     "setup": false,
     "team": "demon"
@@ -1176,6 +1386,8 @@
       "Protected",
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/0c/Icon_innkeeper.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/innkeeper.png",
     "setup": false,
     "team": "townsfolk"
@@ -1193,6 +1405,9 @@
       "Minion",
       "Wrong"
     ],
+    "whitenifyTokenFilter": true,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/ad/Icon_investigator.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/investigator.png",
     "setup": false,
     "team": "townsfolk"
@@ -1209,6 +1424,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/59/Icon_judge.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/judge.png",
     "setup": false,
     "team": "traveler"
@@ -1225,6 +1442,8 @@
     "reminders": [
       "Correct"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/4/42/Icon_juggler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/juggler.png",
     "setup": false,
     "team": "townsfolk"
@@ -1241,6 +1460,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/3/3c/Icon_kazali.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/kazali.png",
     "setup": true,
     "team": "demon"
@@ -1255,6 +1476,8 @@
     "otherNight": 71,
     "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_king.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/king.png",
     "setup": false,
     "team": "townsfolk"
@@ -1269,6 +1492,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/bc/Icon_klutz.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/klutz.png",
     "setup": false,
     "team": "outsider"
@@ -1285,6 +1510,8 @@
     "reminders": [
       "Knows"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_knight.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/knight.png",
     "setup": false,
     "team": "townsfolk"
@@ -1302,6 +1529,8 @@
       "Dead",
       "About to die"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/cb/Icon_legion.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/legion.png",
     "setup": true,
     "team": "demon"
@@ -1323,6 +1552,8 @@
       "Day 5",
       "Good player executed"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a7/Icon_leviathan.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/leviathan.png",
     "setup": false,
     "team": "demon"
@@ -1340,6 +1571,8 @@
       "Outsider",
       "Wrong"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_librarian.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/librarian.png",
     "setup": false,
     "team": "townsfolk"
@@ -1358,6 +1591,8 @@
       "Is the Demon",
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c3/Icon_lilmonsta.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lilmonsta.png",
     "setup": true,
     "team": "demon"
@@ -1375,6 +1610,8 @@
       "Dead",
       "Poisoned"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/70/Icon_lleech.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lleech.png",
     "setup": false,
     "team": "demon"
@@ -1393,6 +1630,8 @@
       "Attack 2",
       "Attack 3"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/64/Icon_lunatic.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lunatic.png",
     "setup": false,
     "team": "outsider"
@@ -1409,6 +1648,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/92/Icon_lycanthrope.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lycanthrope.png",
     "setup": false,
     "team": "townsfolk"
@@ -1423,6 +1664,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/93/Icon_magician.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/magician.png",
     "setup": false,
     "team": "townsfolk"
@@ -1440,6 +1683,8 @@
     "remindersGlobal": [
       "Is the Marionette"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_marionette.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/marionette.png",
     "setup": true,
     "team": "minion"
@@ -1454,6 +1699,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_mastermind.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mastermind.png",
     "setup": false,
     "team": "minion"
@@ -1470,6 +1717,8 @@
     "reminders": [
       "Abnormal"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f1/Icon_mathematician.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mathematician.png",
     "setup": false,
     "team": "townsfolk"
@@ -1484,6 +1733,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/21/Icon_matron.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/matron.png",
     "setup": false,
     "team": "traveler"
@@ -1498,6 +1749,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a1/Icon_mayor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mayor.png",
     "setup": false,
     "team": "townsfolk"
@@ -1515,6 +1768,8 @@
       "Turns evil",
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f2/Icon_mezepheles.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mephit.png",
     "setup": false,
     "team": "minion"
@@ -1532,6 +1787,8 @@
       "Turns evil",
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f2/Icon_mezepheles.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mezepheles.png",
     "setup": false,
     "team": "minion"
@@ -1548,6 +1805,8 @@
     "reminders": [
       "Everyone drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/24/Icon_minstrel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/minstrel.png",
     "setup": false,
     "team": "townsfolk"
@@ -1564,6 +1823,8 @@
     "reminders": [
       "Protected"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/7c/Icon_monk.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/monk.png",
     "setup": false,
     "team": "townsfolk"
@@ -1580,6 +1841,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_moonchild.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/moonchild.png",
     "setup": false,
     "team": "outsider"
@@ -1594,6 +1857,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/2e/Icon_mutant.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mutant.png",
     "setup": false,
     "team": "outsider"
@@ -1610,23 +1875,9 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f0/Icon_nightwatchman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/nightwatchman.png",
-    "setup": false,
-    "team": "townsfolk"
-  },
-  {
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
-    "edition": "ks",
-    "firstNight": 50,
-    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
-    "id": "noble",
-    "name": "Noble",
-    "otherNight": null,
-    "otherNightReminder": null,
-    "reminders": [
-      "Seen"
-    ],
-    "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/noble.png",
     "setup": false,
     "team": "townsfolk"
   },
@@ -1641,11 +1892,32 @@
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
     "reminders": [
       "Dead",
+      "Poisoned",
       "Poisoned"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/eb/Icon_nodashii.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/nodashii.png",
     "setup": false,
     "team": "demon"
+  },
+  {
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "edition": "ks",
+    "firstNight": 50,
+    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "id": "noble",
+    "name": "Noble",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [
+      "Seen"
+    ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/cc/Icon_noble.png",
+    "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/noble.png",
+    "setup": false,
+    "team": "townsfolk"
   },
   {
     "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
@@ -1656,6 +1928,8 @@
     "name": "Ogre",
     "otherNight": null,
     "otherNightReminder": null,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/ogre.png",
     "team": "outsider"
   },
@@ -1671,6 +1945,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/ojo.png",
     "team": "demon"
   },
@@ -1684,6 +1960,8 @@
     "otherNight": 66,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/bb/Icon_oracle.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/oracle.png",
     "setup": false,
     "team": "townsfolk"
@@ -1700,6 +1978,8 @@
     "reminders": [
       "About to die"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/61/Icon_organgrinder.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/organgrinder.png",
     "setup": false,
     "team": "minion"
@@ -1714,6 +1994,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/5d/Icon_pacifist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pacifist.png",
     "setup": false,
     "team": "townsfolk"
@@ -1731,6 +2013,8 @@
       "Drunk",
       "Is the Philosopher"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/5d/Icon_philosopher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/philosopher.png",
     "setup": false,
     "team": "townsfolk"
@@ -1745,6 +2029,8 @@
     "otherNight": 16,
     "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6b/Icon_pithag.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pithag.png",
     "setup": false,
     "team": "minion"
@@ -1762,6 +2048,8 @@
       "Mad",
       "Has ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_pixie.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pixie.png",
     "setup": false,
     "team": "townsfolk"
@@ -1778,6 +2066,8 @@
     "reminders": [
       "Storyteller Ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_plaguedoctor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/plaguedoctor.png",
     "setup": false,
     "team": "outsider"
@@ -1795,6 +2085,8 @@
       "Dead",
       "3 attacks"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/b2/Icon_po.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/po.png",
     "setup": false,
     "team": "demon"
@@ -1811,6 +2103,8 @@
     "reminders": [
       "Poisoned"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/b/b1/Icon_poisoner.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/poisoner.png",
     "setup": false,
     "team": "minion"
@@ -1825,6 +2119,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a3/Icon_politician.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/politician.png",
     "setup": false,
     "team": "outsider"
@@ -1841,6 +2137,8 @@
     "reminders": [
       "Evil wakes"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/91/Icon_poppygrower.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/poppygrower.png",
     "setup": false,
     "team": "townsfolk"
@@ -1857,6 +2155,8 @@
     "reminders": [
       "At a sermon"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/82/Icon_preacher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/preacher.png",
     "setup": false,
     "team": "townsfolk"
@@ -1874,6 +2174,8 @@
       "Alive",
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/65/Icon_professor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/professor.png",
     "setup": false,
     "team": "townsfolk"
@@ -1888,6 +2190,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a3/Icon_psychopath.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/psychopath.png",
     "setup": false,
     "team": "minion"
@@ -1905,6 +2209,8 @@
       "Poisoned",
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/f4/Icon_pukka.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pukka.png",
     "setup": false,
     "team": "demon"
@@ -1922,6 +2228,8 @@
       "Drunk",
       "Guess used"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/7a/Icon_puzzlemaster.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/puzzlemaster.png",
     "setup": false,
     "team": "outsider"
@@ -1936,6 +2244,8 @@
     "otherNight": 59,
     "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player's character token.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/ef/Icon_ravenkeeper.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/ravenkeeper.png",
     "setup": false,
     "team": "townsfolk"
@@ -1950,6 +2260,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/60/Icon_recluse.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/recluse.png",
     "setup": false,
     "team": "outsider"
@@ -1966,6 +2278,8 @@
     "reminders": [
       "Used"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/94/Icon_revolutionary.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/revolutionary.png",
     "setup": false,
     "team": "fabled"
@@ -1980,6 +2294,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/2d/Icon_riot.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/riot.png",
     "setup": true,
     "team": "demon"
@@ -1994,6 +2310,8 @@
     "otherNight": 48,
     "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a0/Icon_sage.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sage.png",
     "setup": false,
     "team": "townsfolk"
@@ -2010,6 +2328,8 @@
     "reminders": [
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_sailor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sailor.png",
     "setup": false,
     "team": "townsfolk"
@@ -2024,6 +2344,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c9/Icon_saint.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/saint.png",
     "setup": false,
     "team": "outsider"
@@ -2038,6 +2360,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_savant.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/savant.png",
     "setup": false,
     "team": "townsfolk"
@@ -2052,6 +2376,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/3/3a/Icon_scapegoat.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/scapegoat.png",
     "setup": false,
     "team": "traveler"
@@ -2068,6 +2394,8 @@
     "reminders": [
       "Demon"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/13/Icon_scarletwoman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/scarletwoman.png",
     "setup": false,
     "team": "minion"
@@ -2084,6 +2412,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/53/Icon_seamstress.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/seamstress.png",
     "setup": false,
     "team": "townsfolk"
@@ -2098,6 +2428,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d4/Icon_sentinel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sentinel.png",
     "setup": true,
     "team": "fabled"
@@ -2115,6 +2447,8 @@
       "Dead",
       "Alive"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1f/Icon_shabaloth.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/shabaloth.png",
     "setup": false,
     "team": "demon"
@@ -2128,6 +2462,8 @@
     "name": "Shugenja",
     "otherNight": null,
     "otherNightReminder": null,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/11/Icon_shugenja.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/shugenja.png",
     "setup": false,
     "team": "townsfolk"
@@ -2144,6 +2480,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d3/Icon_slayer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/slayer.png",
     "setup": false,
     "team": "townsfolk"
@@ -2160,6 +2498,8 @@
     "reminders": [
       "Poisoned"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_snakecharmer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/snakecharmer.png",
     "setup": false,
     "team": "townsfolk"
@@ -2174,6 +2514,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c1/Icon_snitch.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/snitch.png",
     "setup": false,
     "team": "outsider"
@@ -2188,6 +2530,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/c/c3/Icon_soldier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/soldier.png",
     "setup": false,
     "team": "townsfolk"
@@ -2204,6 +2548,8 @@
     "reminders": [
       "No extra evil"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/96/Icon_spiritofivory.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/spiritofivory.png",
     "setup": false,
     "team": "fabled"
@@ -2218,6 +2564,8 @@
     "otherNight": 76,
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/5/54/Icon_spy.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/spy.png",
     "setup": false,
     "team": "minion"
@@ -2234,6 +2582,8 @@
     "reminders": [
       "Knows"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/f/fe/Icon_steward.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/steward.png",
     "setup": false,
     "team": "townsfolk"
@@ -2250,6 +2600,8 @@
     "reminders": [
       "Safe"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_stormcatcher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/stormcatcher.png",
     "setup": false,
     "team": "fabled"
@@ -2268,6 +2620,8 @@
       "Night 2",
       "Night 3"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_summoner.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/summoner.png",
     "setup": true,
     "team": "minion"
@@ -2284,6 +2638,8 @@
     "reminders": [
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6a/Icon_sweetheart.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sweetheart.png",
     "setup": false,
     "team": "outsider"
@@ -2300,6 +2656,8 @@
     "reminders": [
       "Can not die"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_tealady.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/tealady.png",
     "setup": false,
     "team": "townsfolk"
@@ -2316,6 +2674,8 @@
     "reminders": [
       "Negative vote"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/77/Icon_thief.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/thief.png",
     "setup": false,
     "team": "traveler"
@@ -2332,6 +2692,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/98/Icon_tinker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/tinker.png",
     "setup": false,
     "team": "outsider"
@@ -2349,6 +2711,8 @@
       "Minions not nominated",
       "Minion nominated"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/e/ef/Icon_towncrier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/towncrier.png",
     "setup": false,
     "team": "townsfolk"
@@ -2365,6 +2729,8 @@
     "reminders": [
       "Final Night: No Attack"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/2/27/Icon_toymaker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/toymaker.png",
     "setup": false,
     "team": "fabled"
@@ -2381,6 +2747,8 @@
     "reminders": [
       "Executed"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/05/Icon_undertaker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/undertaker.png",
     "setup": false,
     "team": "townsfolk"
@@ -2399,6 +2767,8 @@
       "Has ability",
       "Poisoned"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_vigormortis.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/vigormortis.png",
     "setup": true,
     "team": "demon"
@@ -2415,6 +2785,8 @@
     "reminders": [
       "Drunk"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/villageidiot.png",
     "setup": true,
     "team": "townsfolk"
@@ -2431,6 +2803,8 @@
     "reminders": [
       "No ability"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/d/d3/Icon_virgin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/virgin.png",
     "setup": false,
     "team": "townsfolk"
@@ -2444,6 +2818,8 @@
     "name": "Vizier",
     "otherNight": null,
     "otherNightReminder": null,
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/a/a4/Icon_vizier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/vizier.png",
     "team": "minion"
   },
@@ -2459,6 +2835,8 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/89/Icon_vortox.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/vortox.png",
     "setup": false,
     "team": "demon"
@@ -2473,6 +2851,8 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/6/6d/Icon_voudon.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/voudon.png",
     "setup": false,
     "team": "traveler"
@@ -2490,6 +2870,8 @@
       "Townsfolk",
       "Wrong"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/8/85/Icon_washerwoman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/washerwoman.png",
     "setup": false,
     "team": "townsfolk"
@@ -2509,6 +2891,8 @@
     "remindersGlobal": [
       "Knows"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/9/99/Icon_widow.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/widow.png",
     "setup": false,
     "team": "minion"
@@ -2525,6 +2909,8 @@
     "reminders": [
       "Cursed"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/7/7b/Icon_witch.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/witch.png",
     "setup": false,
     "team": "minion"
@@ -2541,8 +2927,26 @@
     "reminders": [
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_yaggababble.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/yaggababble.png",
     "team": "demon"
+  },
+  {
+    "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+    "edition": "experimental",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "zealot",
+    "name": "Zealot",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_zealot.png",
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/dev/src/icons/zealot.png",
+    "setup": false,
+    "team": "outsider"
   },
   {
     "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
@@ -2557,6 +2961,8 @@
       "Died today",
       "Dead"
     ],
+    "whitenifyTokenFilter": true,
+    "image": "https://wiki.bloodontheclocktower.com/images/1/15/Icon_zombuul.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/zombuul.png",
     "setup": false,
     "team": "demon"

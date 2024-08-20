@@ -1,8 +1,13 @@
 import "./styles.css";
+import AllCharacters from "./scripts/AllCharacters.json";
 import Boozling from "./scripts/Boozling.json";
 import Catfishing from "./scripts/Catfishing.json";
+import Church from "./scripts/Church of Spies.json";
 import ExtensionCord from "./scripts/Extension Cord.json";
+import Friends from "./scripts/With Friends Like These.json";
 import Horrifying from "./scripts/The Horrifying Spectacle of Public Executions.json";
+import Midnight from "./scripts/The Midnight Oasis.json";
+import Labyrinth from "./scripts/The Minotaur's Labyrinth.json";
 import Predicament from "./scripts/Predicament Forthcoming.json";
 
 import { useState, useEffect } from "react";
@@ -11,7 +16,7 @@ import { ReminderTokens } from "./ReminderTokens";
 import { getAllRoleIds, getRoleInfo, RoleInfo } from "./roleInfos";
 
 function convertCharName(text: string) {
-  return text.replace("_", "").replace("-", "");
+  return text.replaceAll("_", "").replaceAll("-", "");
 }
 
 export default function App() {
@@ -28,25 +33,37 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const activeScript = ExtensionCord;
+  const allCharacters = false
+  const characterTokensOnly = false
+
+  const activeScript = allCharacters ? AllCharacters : Midnight;
 
   // console.log(activeScript)
 
   const tokens = activeScript.map((character, i) =>
     character.id === "_meta" ? (
       ""
-    ) : (
-      <text key={i}>
-        <Token
-          key={convertCharName(character.id) + "-charactertoken"}
-          roleId={convertCharName(character.id)}
-        />
-        <ReminderTokens
-          key={convertCharName(character.id) + "-remindertokens"}
-          roleId={convertCharName(character.id)}
-        />
-      </text>
-    ),
+    ) : characterTokensOnly ? 
+      (
+        <text key={i}>
+          <Token
+            key={convertCharName(character.id) + "-charactertoken"}
+            roleId={convertCharName(character.id)}
+          />
+        </text>
+      ) :
+      (
+        <text key={i}>
+          <Token
+            key={convertCharName(character.id) + "-charactertoken"}
+            roleId={convertCharName(character.id)}
+          />
+          <ReminderTokens
+            key={convertCharName(character.id) + "-remindertokens"}
+            roleId={convertCharName(character.id)}
+          />
+        </text>
+      ),
   );
 
   return (

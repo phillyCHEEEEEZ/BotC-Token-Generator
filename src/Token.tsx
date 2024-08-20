@@ -28,7 +28,7 @@ export function Token(props: TokenProps) {
 
   // console.log(roleId, "-", reminderCount)
 
-  let margin = abilityWithoutNewlines.length < 90 ? 14 : 11;
+  let margin = abilityWithoutNewlines.length < 200 ? 14 : 11;
 
   const { lines, fontSize: computedFontSize } = useTextPositioning({
     text: abilityWithNewlines,
@@ -126,13 +126,14 @@ export function Token(props: TokenProps) {
           y="48"
           style={{
             fontSize: computedFontSize,
-            fontFamily: abilityFontFamily,
+            // fontFamily: abilityFontFamily,
             lineHeight: 1,
             textAlign: "center",
             whiteSpace: "pre",
             display: "inline",
             fill: "#101010"
           }}
+          className="ability"
         >
           {lineEls}
         </text>
