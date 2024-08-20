@@ -36,7 +36,7 @@ export default function App() {
   const allCharacters = false
   const characterTokensOnly = false
 
-  const activeScript = allCharacters ? AllCharacters : Labyrinth;
+  const activeScript = allCharacters ? AllCharacters : Midnight;
 
   // console.log(activeScript)
 
