@@ -4,7 +4,7 @@ export function readImageDetails(href: string) {
   const image = document.createElement('img');
   image.src = href;
 
-  //ctx.drawImage(image, 0, 0);
+  ctx.drawImage(image, 0, 0);
   document.body.appendChild(canvas);
 
 }
