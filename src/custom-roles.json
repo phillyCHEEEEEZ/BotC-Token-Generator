@@ -68,9 +68,7 @@
     "name": "Hawk Tuah",
     "otherNight": 44,
     "otherNightReminder": "The Hawk Tuah either shakes their head no or points at any player. If they pointed at a minion of the opposite alignment, wake that player and show them the 'You are' card and indicate to them their new alignment.",
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
     "remote_image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
@@ -86,9 +84,7 @@
     "name": "Acrobat",
     "otherNight": 44,
     "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_acrobat.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/acrobat.png",
@@ -104,13 +100,7 @@
     "name": "Al-Hadikhia",
     "otherNight": 36,
     "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
-    "reminders": [
-      "1",
-      "2",
-      "3",
-      "Chose death",
-      "Chose life"
-    ],
+    "reminders": ["1", "2", "3", "Chose death", "Chose life"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/18/Icon_alhadikhia.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/alhadikhia.png",
@@ -127,9 +117,7 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
-    "remindersGlobal": [
-      "Is the Alchemist"
-    ],
+    "remindersGlobal": ["Is the Alchemist"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/54/Icon_alchemist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/alchemist.png",
@@ -145,9 +133,7 @@
     "name": "Alsaahir",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Guessed today"
-    ],
+    "reminders": ["Guessed today"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
     "remote_image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
@@ -163,9 +149,7 @@
     "name": "Amnesiac",
     "otherNight": 54,
     "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-    "reminders": [
-      "???"
-    ],
+    "reminders": ["???"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_amnesiac.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/amnesiac.png",
@@ -181,10 +165,7 @@
     "name": "Angel",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Protect",
-      "Something Bad"
-    ],
+    "reminders": ["Protect", "Something Bad"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/ca/Icon_angel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/angel.png",
@@ -200,9 +181,7 @@
     "name": "Apprentice",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Is the Apprentice"
-    ],
+    "reminders": ["Is the Apprentice"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/03/Icon_apprentice.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/apprentice.png",
@@ -218,9 +197,7 @@
     "name": "Artist",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_artist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/artist.png",
@@ -236,10 +213,7 @@
     "name": "Assassin",
     "otherNight": 41,
     "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "No ability"
-    ],
+    "reminders": ["Dead", "No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/49/Icon_assassin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/assassin.png",
@@ -271,9 +245,7 @@
     "name": "Balloonist",
     "otherNight": 69,
     "otherNightReminder": "Choose a character type that is different than the character type that was seen last night. Point to a player whose character is of that type, if there are any. Place the Balloonist's 'Seen' reminder next to that character.",
-    "reminders": [
-      "Seen"
-    ],
+    "reminders": ["Seen"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/cb/Icon_balloonist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/balloonist.png",
@@ -289,9 +261,7 @@
     "name": "Banshee",
     "otherNight": 49,
     "otherNightReminder": "Announce that the Banshee has died.",
-    "reminders": [
-      "Has Ability"
-    ],
+    "reminders": ["Has Ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/banshee.png",
@@ -306,9 +276,7 @@
     "name": "Barber",
     "otherNight": 46,
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
-    "reminders": [
-      "Haircuts tonight"
-    ],
+    "reminders": ["Haircuts tonight"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_barber.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/barber.png",
@@ -324,10 +292,7 @@
     "name": "Barista",
     "otherNight": null,
     "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "reminders": [
-      "Sober & Healthy",
-      "Ability twice"
-    ],
+    "reminders": ["Sober & Healthy", "Ability twice"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/24/Icon_barista.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/barista.png",
@@ -375,10 +340,7 @@
     "name": "Bishop",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Nominate good",
-      "Nominate evil"
-    ],
+    "reminders": ["Nominate good", "Nominate evil"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/71/Icon_bishop.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bishop.png",
@@ -394,10 +356,7 @@
     "name": "Bone Collector",
     "otherNight": null,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
-    "reminders": [
-      "No ability",
-      "Has ability"
-    ],
+    "reminders": ["No ability", "Has ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/9e/Icon_bonecollector.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bonecollector.png",
@@ -444,9 +403,7 @@
     "name": "Bounty Hunter",
     "otherNight": 72,
     "otherNightReminder": "If the known evil player has died, point to another evil player. ",
-    "reminders": [
-      "Known"
-    ],
+    "reminders": ["Known"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/5b/Icon_bountyhunter.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bountyhunter.png",
@@ -478,9 +435,7 @@
     "name": "Bureaucrat",
     "otherNight": null,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "reminders": [
-      "3 votes"
-    ],
+    "reminders": ["3 votes"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/b/b1/Icon_bureaucrat.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/bureaucrat.png",
@@ -512,9 +467,7 @@
     "name": "Butler",
     "otherNight": 75,
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
-    "reminders": [
-      "Master"
-    ],
+    "reminders": ["Master"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/19/Icon_butler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/butler.png",
@@ -530,10 +483,7 @@
     "name": "Cannibal",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Poisoned",
-      "Died today"
-    ],
+    "reminders": ["Poisoned", "Died today"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_cannibal.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/cannibal.png",
@@ -549,9 +499,7 @@
     "name": "Cerenovus",
     "otherNight": 15,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
-    "reminders": [
-      "Mad"
-    ],
+    "reminders": ["Mad"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/45/Icon_cerenovus.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/cerenovus.png",
@@ -630,12 +578,7 @@
     "name": "Courtier",
     "otherNight": 8,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
-    "reminders": [
-      "Drunk 3",
-      "Drunk 2",
-      "Drunk 1",
-      "No ability"
-    ],
+    "reminders": ["Drunk 3", "Drunk 2", "Drunk 1", "No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_courtier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/courtier.png",
@@ -667,9 +610,7 @@
     "name": "Damsel",
     "otherNight": 53,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
-    "reminders": [
-      "Guess used"
-    ],
+    "reminders": ["Guess used"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_damsel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/damsel.png",
@@ -701,9 +642,7 @@
     "name": "Devil's Advocate",
     "otherNight": 13,
     "otherNightReminder": "The Devil's Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
-    "reminders": [
-      "Survives execution"
-    ],
+    "reminders": ["Survives execution"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/09/Icon_devilsadvocate.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/devilsadvocate.png",
@@ -768,9 +707,7 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
-    "remindersGlobal": [
-      "Drunk"
-    ],
+    "remindersGlobal": ["Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/4a/Icon_drunk.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/drunk.png",
@@ -786,10 +723,7 @@
     "name": "Duchess",
     "otherNight": null,
     "otherNightReminder": "Wake each player marked \"Visitor\" or \"False Info\" one at a time. Show them the Duchess token, then fingers (1, 2, 3) equaling the number of evil players marked \"Visitor\" or, if you are waking the player marked \"False Info,\" show them any number of fingers except the number of evil players marked \"Visitor.\"",
-    "reminders": [
-      "Visitor",
-      "False Info"
-    ],
+    "reminders": ["Visitor", "False Info"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/87/Icon_duchess.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/duchess.png",
@@ -821,9 +755,7 @@
     "name": "Engineer",
     "otherNight": 5,
     "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/b/b9/Icon_engineer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/engineer.png",
@@ -839,9 +771,7 @@
     "name": "Evil Twin",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Twin"
-    ],
+    "reminders": ["Twin"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f4/Icon_eviltwin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/eviltwin.png",
@@ -857,9 +787,7 @@
     "name": "Exorcist",
     "otherNight": 23,
     "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
-    "reminders": [
-      "Chosen"
-    ],
+    "reminders": ["Chosen"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/c2/Icon_exorcist.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/exorcist.png",
@@ -875,10 +803,7 @@
     "name": "Fang Gu",
     "otherNight": 31,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
-    "reminders": [
-      "Dead",
-      "Once"
-    ],
+    "reminders": ["Dead", "Once"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/0e/Icon_fanggu.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fanggu.png",
@@ -910,9 +835,7 @@
     "name": "Fearmonger",
     "otherNight": 17,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
-    "reminders": [
-      "Fear"
-    ],
+    "reminders": ["Fear"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/11/Icon_fearmonger.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fearmonger.png",
@@ -944,9 +867,7 @@
     "name": "Fibbin",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Used"
-    ],
+    "reminders": ["Used"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/2e/Icon_fibbin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fibbin.png",
@@ -978,9 +899,7 @@
     "name": "Fisherman",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/19/Icon_fisherman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fisherman.png",
@@ -996,10 +915,7 @@
     "name": "Flowergirl",
     "otherNight": 64,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
-    "reminders": [
-      "Demon voted",
-      "Demon not voted"
-    ],
+    "reminders": ["Demon voted", "Demon not voted"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/a/ac/Icon_flowergirl.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/flowergirl.png",
@@ -1015,9 +931,7 @@
     "name": "Fool",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_fool.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fool.png",
@@ -1033,9 +947,7 @@
     "name": "Fortune Teller",
     "otherNight": 61,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
-    "reminders": [
-      "Red herring"
-    ],
+    "reminders": ["Red herring"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/97/Icon_fortuneteller.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/fortuneteller.png",
@@ -1051,9 +963,7 @@
     "name": "Gambler",
     "otherNight": 10,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/fd/Icon_gambler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gambler.png",
@@ -1117,9 +1027,7 @@
     "name": "Goblin",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Claimed"
-    ],
+    "reminders": ["Claimed"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_goblin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/goblin.png",
@@ -1135,10 +1043,7 @@
     "name": "Godfather",
     "otherNight": 42,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
-    "reminders": [
-      "Died today",
-      "Dead"
-    ],
+    "reminders": ["Died today", "Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/d0/Icon_godfather.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/godfather.png",
@@ -1154,9 +1059,7 @@
     "name": "Golem",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Can not nominate"
-    ],
+    "reminders": ["Can not nominate"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/2b/Icon_golem.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/golem.png",
@@ -1172,9 +1075,7 @@
     "name": "Goon",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Drunk"
-    ],
+    "reminders": ["Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_goon.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/goon.png",
@@ -1190,9 +1091,7 @@
     "name": "Gossip",
     "otherNight": 43,
     "otherNightReminder": "If the Gossip's public statement was true: Choose a player not protected from dying tonight. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/c7/Icon_gossip.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/gossip.png",
@@ -1208,9 +1107,7 @@
     "name": "Grandmother",
     "otherNight": 58,
     "otherNightReminder": "If the Grandmother's grandchild was killed by the Demon tonight: The Grandmother dies.",
-    "reminders": [
-      "Grandchild"
-    ],
+    "reminders": ["Grandchild"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_grandmother.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/grandmother.png",
@@ -1242,9 +1139,7 @@
     "name": "Harlot",
     "otherNight": null,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/60/Icon_harlot.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/harlot.png",
@@ -1260,10 +1155,7 @@
     "name": "Harpy",
     "otherNight": 18,
     "otherNightReminder": "Wake the Harpy; they point at one player, then another. Wake the 1st player the Harpy pointed to, show them the 'This character has selected you' card, show them the Harpy token, then point at the 2nd player the Harpy pointed to.",
-    "reminders": [
-      "Mad",
-      "2nd"
-    ],
+    "reminders": ["Mad", "2nd"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/1b/Harpy.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/harpy.png",
@@ -1279,9 +1171,7 @@
     "name": "Hatter",
     "otherNight": 45,
     "otherNightReminder": "If the Hatter died today: Wake the Minions and Demon. Show them the 'This Character Selected You' info token, then the Hatter token. Each player either shakes their head no or points to another character of the same type as their current character.  If a second player would end up with the same character as another player, shake your head no and gesture for them to choose again. Put them to sleep. Change each player to the character they chose.",
-    "reminders": [
-      "Tea Party Tonight"
-    ],
+    "reminders": ["Tea Party Tonight"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/44/Icon_hatter.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/hatter.png",
@@ -1296,9 +1186,7 @@
     "name": "Hell's Librarian",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Something Bad"
-    ],
+    "reminders": ["Something Bad"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/65/Icon_hellslibrarian.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/hellslibrarian.png",
@@ -1346,9 +1234,7 @@
     "name": "Huntsman",
     "otherNight": 52,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/a/a1/Icon_huntsman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/huntsman.png",
@@ -1364,9 +1250,7 @@
     "name": "Imp",
     "otherNight": 26,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/5c/Icon_imp.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/imp.png",
@@ -1382,10 +1266,7 @@
     "name": "Innkeeper",
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
-    "reminders": [
-      "Protected",
-      "Drunk"
-    ],
+    "reminders": ["Protected", "Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/0c/Icon_innkeeper.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/innkeeper.png",
@@ -1401,10 +1282,7 @@
     "name": "Investigator",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Minion",
-      "Wrong"
-    ],
+    "reminders": ["Minion", "Wrong"],
     "whitenifyTokenFilter": true,
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/a/ad/Icon_investigator.png",
@@ -1421,9 +1299,7 @@
     "name": "Judge",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/59/Icon_judge.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/judge.png",
@@ -1439,9 +1315,7 @@
     "name": "Juggler",
     "otherNight": 68,
     "otherNightReminder": "If today was the Juggler's first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
-    "reminders": [
-      "Correct"
-    ],
+    "reminders": ["Correct"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/42/Icon_juggler.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/juggler.png",
@@ -1457,9 +1331,7 @@
     "name": "Kazali",
     "otherNight": 40,
     "otherNightReminder": "The Kazali points to a player. That player dies",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/3/3c/Icon_kazali.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/kazali.png",
@@ -1507,9 +1379,7 @@
     "name": "Knight",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Knows"
-    ],
+    "reminders": ["Knows"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_knight.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/knight.png",
@@ -1525,10 +1395,7 @@
     "name": "Legion",
     "otherNight": 25,
     "otherNightReminder": "Choose a player, that player dies.",
-    "reminders": [
-      "Dead",
-      "About to die"
-    ],
+    "reminders": ["Dead", "About to die"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/cb/Icon_legion.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/legion.png",
@@ -1567,10 +1434,7 @@
     "name": "Librarian",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Outsider",
-      "Wrong"
-    ],
+    "reminders": ["Outsider", "Wrong"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_librarian.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/librarian.png",
@@ -1587,10 +1451,7 @@
     "otherNight": 38,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
-    "remindersGlobal": [
-      "Is the Demon",
-      "Dead"
-    ],
+    "remindersGlobal": ["Is the Demon", "Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/c3/Icon_lilmonsta.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lilmonsta.png",
@@ -1606,10 +1467,7 @@
     "name": "Lleech",
     "otherNight": 37,
     "otherNightReminder": "The Lleech points to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "Poisoned"
-    ],
+    "reminders": ["Dead", "Poisoned"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/70/Icon_lleech.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lleech.png",
@@ -1625,11 +1483,7 @@
     "name": "Lunatic",
     "otherNight": 22,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
-    "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
-    ],
+    "reminders": ["Attack 1", "Attack 2", "Attack 3"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/64/Icon_lunatic.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lunatic.png",
@@ -1645,9 +1499,7 @@
     "name": "Lycanthrope",
     "otherNight": 24,
     "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/92/Icon_lycanthrope.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/lycanthrope.png",
@@ -1680,9 +1532,7 @@
     "otherNight": null,
     "otherNightReminder": null,
     "reminders": [],
-    "remindersGlobal": [
-      "Is the Marionette"
-    ],
+    "remindersGlobal": ["Is the Marionette"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_marionette.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/marionette.png",
@@ -1714,9 +1564,7 @@
     "name": "Mathematician",
     "otherNight": 80,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
-    "reminders": [
-      "Abnormal"
-    ],
+    "reminders": ["Abnormal"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f1/Icon_mathematician.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mathematician.png",
@@ -1764,10 +1612,7 @@
     "name": "Mephit",
     "otherNight": null,
     "otherNightReminder": "Wake the 1st good player that said the Mephit's secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": [
-      "Turns evil",
-      "No ability"
-    ],
+    "reminders": ["Turns evil", "No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f2/Icon_mezepheles.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mephit.png",
@@ -1783,10 +1628,7 @@
     "name": "Mezepheles",
     "otherNight": 19,
     "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": [
-      "Turns evil",
-      "No ability"
-    ],
+    "reminders": ["Turns evil", "No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f2/Icon_mezepheles.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/mezepheles.png",
@@ -1802,9 +1644,7 @@
     "name": "Minstrel",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Everyone drunk"
-    ],
+    "reminders": ["Everyone drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/24/Icon_minstrel.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/minstrel.png",
@@ -1820,9 +1660,7 @@
     "name": "Monk",
     "otherNight": 12,
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
-    "reminders": [
-      "Protected"
-    ],
+    "reminders": ["Protected"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/7c/Icon_monk.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/monk.png",
@@ -1838,9 +1676,7 @@
     "name": "Moonchild",
     "otherNight": 57,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_moonchild.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/moonchild.png",
@@ -1872,9 +1708,7 @@
     "name": "Nightwatchman",
     "otherNight": 73,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f0/Icon_nightwatchman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/nightwatchman.png",
@@ -1890,11 +1724,7 @@
     "name": "No Dashii",
     "otherNight": 32,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
-    "reminders": [
-      "Dead",
-      "Poisoned",
-      "Poisoned"
-    ],
+    "reminders": ["Dead", "Poisoned", "Poisoned"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/eb/Icon_nodashii.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/nodashii.png",
@@ -1910,9 +1740,7 @@
     "name": "Noble",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Seen"
-    ],
+    "reminders": ["Seen"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/c/cc/Icon_noble.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/noble.png",
@@ -1942,9 +1770,7 @@
     "name": "Ojo",
     "otherNight": 35,
     "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/ojo.png",
@@ -1975,9 +1801,7 @@
     "name": "Organ Grinder",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "About to die"
-    ],
+    "reminders": ["About to die"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/61/Icon_organgrinder.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/organgrinder.png",
@@ -2009,10 +1833,7 @@
     "name": "Philosopher",
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
+    "reminders": ["Drunk", "Is the Philosopher"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/5d/Icon_philosopher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/philosopher.png",
@@ -2044,10 +1865,7 @@
     "name": "Pixie",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Mad",
-      "Has ability"
-    ],
+    "reminders": ["Mad", "Has ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_pixie.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pixie.png",
@@ -2063,9 +1881,7 @@
     "name": "Plague Doctor",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Storyteller Ability"
-    ],
+    "reminders": ["Storyteller Ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_plaguedoctor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/plaguedoctor.png",
@@ -2081,10 +1897,7 @@
     "name": "Po",
     "otherNight": 30,
     "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
-    "reminders": [
-      "Dead",
-      "3 attacks"
-    ],
+    "reminders": ["Dead", "3 attacks"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/b/b2/Icon_po.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/po.png",
@@ -2100,9 +1913,7 @@
     "name": "Poisoner",
     "otherNight": 7,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
-    "reminders": [
-      "Poisoned"
-    ],
+    "reminders": ["Poisoned"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/b/b1/Icon_poisoner.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/poisoner.png",
@@ -2134,9 +1945,7 @@
     "name": "Poppy Grower",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
-    "reminders": [
-      "Evil wakes"
-    ],
+    "reminders": ["Evil wakes"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/91/Icon_poppygrower.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/poppygrower.png",
@@ -2152,9 +1961,7 @@
     "name": "Preacher",
     "otherNight": 6,
     "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
-    "reminders": [
-      "At a sermon"
-    ],
+    "reminders": ["At a sermon"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/82/Icon_preacher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/preacher.png",
@@ -2170,10 +1977,7 @@
     "name": "Professor",
     "otherNight": 50,
     "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
-    "reminders": [
-      "Alive",
-      "No ability"
-    ],
+    "reminders": ["Alive", "No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/65/Icon_professor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/professor.png",
@@ -2205,10 +2009,7 @@
     "name": "Pukka",
     "otherNight": 28,
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies. ",
-    "reminders": [
-      "Poisoned",
-      "Dead"
-    ],
+    "reminders": ["Poisoned", "Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/f4/Icon_pukka.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/pukka.png",
@@ -2224,10 +2025,7 @@
     "name": "Puzzlemaster",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Drunk",
-      "Guess used"
-    ],
+    "reminders": ["Drunk", "Guess used"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/7a/Icon_puzzlemaster.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/puzzlemaster.png",
@@ -2275,9 +2073,7 @@
     "name": "Revolutionary",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Used"
-    ],
+    "reminders": ["Used"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/94/Icon_revolutionary.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/revolutionary.png",
@@ -2325,9 +2121,7 @@
     "name": "Sailor",
     "otherNight": 4,
     "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
-    "reminders": [
-      "Drunk"
-    ],
+    "reminders": ["Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_sailor.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sailor.png",
@@ -2391,9 +2185,7 @@
     "name": "Scarlet Woman",
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-    "reminders": [
-      "Demon"
-    ],
+    "reminders": ["Demon"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/13/Icon_scarletwoman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/scarletwoman.png",
@@ -2409,9 +2201,7 @@
     "name": "Seamstress",
     "otherNight": 67,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/5/53/Icon_seamstress.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/seamstress.png",
@@ -2443,10 +2233,7 @@
     "name": "Shabaloth",
     "otherNight": 29,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
-    "reminders": [
-      "Dead",
-      "Alive"
-    ],
+    "reminders": ["Dead", "Alive"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/1f/Icon_shabaloth.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/shabaloth.png",
@@ -2477,9 +2264,7 @@
     "name": "Slayer",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/d3/Icon_slayer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/slayer.png",
@@ -2495,9 +2280,7 @@
     "name": "Snake Charmer",
     "otherNight": 11,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
-    "reminders": [
-      "Poisoned"
-    ],
+    "reminders": ["Poisoned"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_snakecharmer.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/snakecharmer.png",
@@ -2545,9 +2328,7 @@
     "name": "Spirit of Ivory",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No extra evil"
-    ],
+    "reminders": ["No extra evil"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/96/Icon_spiritofivory.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/spiritofivory.png",
@@ -2579,9 +2360,7 @@
     "name": "Steward",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Knows"
-    ],
+    "reminders": ["Knows"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/f/fe/Icon_steward.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/steward.png",
@@ -2597,9 +2376,7 @@
     "name": "Storm Catcher",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Safe"
-    ],
+    "reminders": ["Safe"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_stormcatcher.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/stormcatcher.png",
@@ -2615,11 +2392,7 @@
     "name": "Summoner",
     "otherNight": 21,
     "otherNightReminder": "If it is the 3rd night, wake the Summoner. They point to a player and a Demon on the character sheet - that player becomes that Demon.",
-    "reminders": [
-      "Night 1",
-      "Night 2",
-      "Night 3"
-    ],
+    "reminders": ["Night 1", "Night 2", "Night 3"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_summoner.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/summoner.png",
@@ -2635,9 +2408,7 @@
     "name": "Sweetheart",
     "otherNight": 47,
     "otherNightReminder": "Choose a player that is drunk.",
-    "reminders": [
-      "Drunk"
-    ],
+    "reminders": ["Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/6a/Icon_sweetheart.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/sweetheart.png",
@@ -2653,9 +2424,7 @@
     "name": "Tea Lady",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Can not die"
-    ],
+    "reminders": ["Can not die"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_tealady.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/tealady.png",
@@ -2671,9 +2440,7 @@
     "name": "Thief",
     "otherNight": null,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "reminders": [
-      "Negative vote"
-    ],
+    "reminders": ["Negative vote"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/77/Icon_thief.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/thief.png",
@@ -2689,9 +2456,7 @@
     "name": "Tinker",
     "otherNight": 56,
     "otherNightReminder": "The Tinker might die.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/98/Icon_tinker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/tinker.png",
@@ -2707,10 +2472,7 @@
     "name": "Town Crier",
     "otherNight": 65,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
-    "reminders": [
-      "Minions not nominated",
-      "Minion nominated"
-    ],
+    "reminders": ["Minions not nominated", "Minion nominated"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/e/ef/Icon_towncrier.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/towncrier.png",
@@ -2726,9 +2488,7 @@
     "name": "Toymaker",
     "otherNight": null,
     "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked \"Final night: No Attack,\" then the Demon does not act tonight. (Do not wake them.)",
-    "reminders": [
-      "Final Night: No Attack"
-    ],
+    "reminders": ["Final Night: No Attack"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/27/Icon_toymaker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/toymaker.png",
@@ -2744,9 +2504,7 @@
     "name": "Undertaker",
     "otherNight": 62,
     "otherNightReminder": "If a player was executed today: Show that player's character token.",
-    "reminders": [
-      "Executed"
-    ],
+    "reminders": ["Executed"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/05/Icon_undertaker.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/undertaker.png",
@@ -2762,11 +2520,7 @@
     "name": "Vigormortis",
     "otherNight": 34,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
-    "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
-    ],
+    "reminders": ["Dead", "Has ability", "Poisoned"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_vigormortis.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/vigormortis.png",
@@ -2782,9 +2536,7 @@
     "name": "Village Idiot",
     "otherNight": 70,
     "otherNightReminder": "The Village Idiot points to a player; give a thumbs up if that player is good or a thumbs down if that player is evil.",
-    "reminders": [
-      "Drunk"
-    ],
+    "reminders": ["Drunk"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/da/Icon_villageidiot.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/villageidiot.png",
@@ -2800,9 +2552,7 @@
     "name": "Virgin",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "No ability"
-    ],
+    "reminders": ["No ability"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/d/d3/Icon_virgin.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/virgin.png",
@@ -2832,9 +2582,7 @@
     "name": "Vortox",
     "otherNight": 33,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/89/Icon_vortox.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/vortox.png",
@@ -2866,10 +2614,7 @@
     "name": "Washerwoman",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Townsfolk",
-      "Wrong"
-    ],
+    "reminders": ["Townsfolk", "Wrong"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/8/85/Icon_washerwoman.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/washerwoman.png",
@@ -2885,12 +2630,8 @@
     "name": "Widow",
     "otherNight": null,
     "otherNightReminder": null,
-    "reminders": [
-      "Poisoned"
-    ],
-    "remindersGlobal": [
-      "Knows"
-    ],
+    "reminders": ["Poisoned"],
+    "remindersGlobal": ["Knows"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/9/99/Icon_widow.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/widow.png",
@@ -2906,9 +2647,7 @@
     "name": "Witch",
     "otherNight": 14,
     "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
-    "reminders": [
-      "Cursed"
-    ],
+    "reminders": ["Cursed"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/7/7b/Icon_witch.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/witch.png",
@@ -2924,9 +2663,7 @@
     "name": "Yaggababble",
     "otherNight": 39,
     "otherNightReminder": "Choose a number of players up to the total number of times the Yaggababble said their secret phrase publicly, those players die.",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_yaggababble.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/yaggababble.png",
@@ -2957,10 +2694,7 @@
     "name": "Zombuul",
     "otherNight": 27,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
-    "reminders": [
-      "Died today",
-      "Dead"
-    ],
+    "reminders": ["Died today", "Dead"],
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/1/15/Icon_zombuul.png",
     "remote_image": "https://raw.githubusercontent.com/chizmw/json-on-the-clocktower/main/data/images/zombuul.png",
