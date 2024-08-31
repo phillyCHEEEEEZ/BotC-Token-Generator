@@ -75,7 +75,7 @@ export function Token(props: TokenProps) {
       key={i}
       x={line.x}
       y={line.y}
-      style={{ fontWeight: line.text.startsWith("[") ? "600" : "" }}
+      style={{ fontWeight: line.text.startsWith("[") || line.text.endsWith("]") || line.text.includes("+") ? "600" : "" }}
     >
       {line.text}
     </tspan>
