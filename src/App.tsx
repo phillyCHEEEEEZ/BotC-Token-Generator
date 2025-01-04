@@ -9,6 +9,7 @@ import Horrifying from "./scripts/The Horrifying Spectacle of Public Executions.
 import Midnight from "./scripts/The Midnight Oasis.json";
 import Labyrinth from "./scripts/The Minotaur's Labyrinth.json";
 import Predicament from "./scripts/Predicament Forthcoming.json";
+import OneMosh from "./scripts/One Mosh Cat Pit.json";
 
 import { useState, useEffect } from "react";
 import { Token } from "./Token";
@@ -36,7 +37,7 @@ export default function App() {
   const allCharacters = false
   const characterTokensOnly = false
 
-  const activeScript = allCharacters ? AllCharacters : Midnight;
+  const activeScript = allCharacters ? AllCharacters : Horrifying;
 
   // console.log(activeScript)
 
