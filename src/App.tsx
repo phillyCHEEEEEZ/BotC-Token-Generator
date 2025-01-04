@@ -37,7 +37,7 @@ export default function App() {
   const allCharacters = false
   const characterTokensOnly = false
 
-  const activeScript = allCharacters ? AllCharacters : Horrifying;
+  const activeScript = allCharacters ? AllCharacters : OneMosh;
 
   // console.log(activeScript)
 
