@@ -33,7 +33,7 @@ export default function App() {
     void getRoles();
   }, []);
 
-  const allCharacters = false
+  const allCharacters = true
   const characterTokensOnly = false
 
   const activeScript = allCharacters ? AllCharacters : Midnight;
