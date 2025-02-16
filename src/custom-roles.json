@@ -89,7 +89,7 @@
     "image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_acrobat.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/acrobat.png",
     "setup": false,
-    "team": "outsider"
+    "team": "townsfolk"
   },
   {
     "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
