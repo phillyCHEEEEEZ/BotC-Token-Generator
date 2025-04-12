@@ -60,22 +60,6 @@
     "team": "_meta"
   },
   {
-    "ability": "Once per game, at night*, choose a player and spit on that thang. A Minion spitten upon that is opposite of your alignment becomes your alignemnt but loses their ability.",
-    "edition": "experimental",
-    "firstNight": null,
-    "firstNightReminder": null,
-    "id": "hawktuah",
-    "name": "Hawk Tuah",
-    "otherNight": 44,
-    "otherNightReminder": "The Hawk Tuah either shakes their head no or points at any player. If they pointed at a minion of the opposite alignment, wake that player and show them the 'You are' card and indicate to them their new alignment.",
-    "reminders": ["No ability"],
-    "whitenifyTokenFilter": true,
-    "image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
-    "remote_image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
-    "setup": false,
-    "team": "townsfolk"
-  },
-  {
     "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
     "edition": "experimental",
     "firstNight": null,
@@ -273,6 +257,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/banshee.png",
+    "setup": false,
     "team": "townsfolk"
   },
   {
@@ -1183,6 +1168,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/44/Icon_hatter.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/hatter.png",
+    "setup": false,
     "team": "outsider"
   },
   {
@@ -1780,6 +1766,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/ogre.png",
+    "setup": false,
     "team": "outsider"
   },
   {
@@ -1795,6 +1782,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/ojo.png",
+    "setup": false,
     "team": "demon"
   },
   {
@@ -2230,26 +2218,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Players can only nominate their living neighbors, even if you are dead.",
-    "edition": "homebrew",
-    "firstNight": null,
-    "firstNightReminder": null,
-    "id": "senator",
-    "name": "Senator",
-    "otherNight": null,
-    "otherNightReminder": null,
-    "reminders": [],
-    "whitenifyTokenFilter": true,
-    "image": [
-      "https://towerscripts.com/image/character/character_67cfbc317870c",
-      "https://towerscripts.com/image/character/character_67cfbc317870c_2",
-      "https://towerscripts.com/image/character/character_67cfbc317870c_3"
-    ],
-    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
-    "setup": false,
-    "team": "mninion"
-  },
-  {
     "ability": "There might be 1 extra or 1 fewer Outsider in play.",
     "edition": "base3",
     "firstNight": null,
@@ -2620,6 +2588,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/a/a4/Icon_vizier.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/vizier.png",
+    "setup": false,
     "team": "minion"
   },
   {
@@ -2716,6 +2685,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_yaggababble.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/yaggababble.png",
+    "setup": false,
     "team": "demon"
   },
   {
@@ -2749,5 +2719,45 @@
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/zombuul.png",
     "setup": false,
     "team": "demon"
+  },
+  {
+    "ability": "Players can only nominate their living neighbors, even if you are dead.",
+    "edition": "unofficial",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "senator",
+    "name": "Senator",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": [
+      "https://towerscripts.com/image/character/character_67cfbc317870c",
+      "https://towerscripts.com/image/character/character_67cfbc317870c_2",
+      "https://towerscripts.com/image/character/character_67cfbc317870c_3"
+    ],
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+    "setup": false,
+    "team": "mninion"
+  },
+  {
+    "ability": "Each day, if 1 of your living neighbors publicly agrees, they become a Mormon. If not, lose your ability.",
+    "edition": "unofficial",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "mormon",
+    "name": "Mormon",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": ["No ability"],
+    "whitenifyTokenFilter": true,
+    "image": [
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator_g.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator_e.png"
+    ],
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+    "setup": false,
+    "team": "mninion"
   }
 ]
