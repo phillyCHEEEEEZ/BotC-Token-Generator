@@ -2218,26 +2218,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Players can only nominate their living neighbors, even if you are dead.",
-    "edition": "homebrew",
-    "firstNight": null,
-    "firstNightReminder": null,
-    "id": "senator",
-    "name": "Senator",
-    "otherNight": null,
-    "otherNightReminder": null,
-    "reminders": [],
-    "whitenifyTokenFilter": true,
-    "image": [
-      "https://towerscripts.com/image/character/character_67cfbc317870c",
-      "https://towerscripts.com/image/character/character_67cfbc317870c_2",
-      "https://towerscripts.com/image/character/character_67cfbc317870c_3"
-    ],
-    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
-    "setup": false,
-    "team": "mninion"
-  },
-  {
     "ability": "There might be 1 extra or 1 fewer Outsider in play.",
     "edition": "base3",
     "firstNight": null,
@@ -2739,5 +2719,45 @@
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/zombuul.png",
     "setup": false,
     "team": "demon"
+  },
+  {
+    "ability": "Players can only nominate their living neighbors, even if you are dead.",
+    "edition": "unofficial",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "senator",
+    "name": "Senator",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": [],
+    "whitenifyTokenFilter": true,
+    "image": [
+      "https://towerscripts.com/image/character/character_67cfbc317870c",
+      "https://towerscripts.com/image/character/character_67cfbc317870c_2",
+      "https://towerscripts.com/image/character/character_67cfbc317870c_3"
+    ],
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+    "setup": false,
+    "team": "mninion"
+  },
+  {
+    "ability": "Each day, if 1 of your living neighbors publicly agrees, they become a Mormon. If not, lose your ability.",
+    "edition": "unofficial",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "mormon",
+    "name": "Mormon",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": ["No ability"],
+    "whitenifyTokenFilter": true,
+    "image": [
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator_g.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator_e.png"
+    ],
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/senator.png",
+    "setup": false,
+    "team": "mninion"
   }
 ]
