@@ -273,6 +273,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/banshee.png",
+    "setup": false,
     "team": "townsfolk"
   },
   {
