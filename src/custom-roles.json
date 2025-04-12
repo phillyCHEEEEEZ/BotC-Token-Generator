@@ -2758,6 +2758,26 @@
     ],
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/mormon.png",
     "setup": false,
-    "team": "mninion"
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each day, choose a 1 word topic on which the Storyteller tells you 1 fact. If an alive neighbor is evil, you get false info.",
+    "edition": "unofficial",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "id": "coachman",
+    "name": "Coachman",
+    "otherNight": null,
+    "otherNightReminder": null,
+    "reminders": ["False Info"],
+    "whitenifyTokenFilter": true,
+    "image": [
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/coachman.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/coachman_g.png",
+      "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/coachman_e.png"
+    ],
+    "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/coachman.png",
+    "setup": false,
+    "team": "townsfolk"
   }
 ]
