@@ -60,22 +60,6 @@
     "team": "_meta"
   },
   {
-    "ability": "Once per game, at night*, choose a player and spit on that thang. A Minion spitten upon that is opposite of your alignment becomes your alignemnt but loses their ability.",
-    "edition": "experimental",
-    "firstNight": null,
-    "firstNightReminder": null,
-    "id": "hawktuah",
-    "name": "Hawk Tuah",
-    "otherNight": 44,
-    "otherNightReminder": "The Hawk Tuah either shakes their head no or points at any player. If they pointed at a minion of the opposite alignment, wake that player and show them the 'You are' card and indicate to them their new alignment.",
-    "reminders": ["No ability"],
-    "whitenifyTokenFilter": true,
-    "image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
-    "remote_image": "https://raw.githubusercontent.com/lilserf/botc-icons/main/sinner.png",
-    "setup": false,
-    "team": "townsfolk"
-  },
-  {
     "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
     "edition": "experimental",
     "firstNight": null,
@@ -1184,6 +1168,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/4/44/Icon_hatter.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/hatter.png",
+    "setup": false,
     "team": "outsider"
   },
   {
@@ -1781,6 +1766,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/2/25/Icon_ogre.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/ogre.png",
+    "setup": false,
     "team": "outsider"
   },
   {
@@ -1796,6 +1782,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/ojo.png",
+    "setup": false,
     "team": "demon"
   },
   {
@@ -2621,6 +2608,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/a/a4/Icon_vizier.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/vizier.png",
+    "setup": false,
     "team": "minion"
   },
   {
@@ -2717,6 +2705,7 @@
     "whitenifyTokenFilter": true,
     "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_yaggababble.png",
     "remote_image": "https://raw.githubusercontent.com/phillyCHEEEEEZ/BotC-Token-Generator/master/src/icons/yaggababble.png",
+    "setup": false,
     "team": "demon"
   },
   {
